@@ -5,7 +5,7 @@ import { store } from "./redux/store";
 
 import "./show-counter";
 import "./counter-user-interface";
-import "./app-admin";
+import "./app-admin.js";
 
 class ReduxLitelementApp extends connect(store)(LitElement) {
     static get properties() {
